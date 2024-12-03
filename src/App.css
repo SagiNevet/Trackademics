@@ -175,35 +175,36 @@ form button:hover {
 @media (max-width: 768px) {
   .main-container {
       display: flex;
-      flex-direction: column; /* משנה את המבנה לטור */
-      gap: 20px; /* רווח בין החלקים */
-      align-items: stretch; /* מבטיח שכל החלקים יתיישרו ברוחב מלא */
+      flex-direction: column; /* מעביר את האלמנטים לטור */
+      gap: 20px; /* מוסיף רווח בין החלקים */
+      align-items: stretch; /* מבטיח שכל חלק יתפרס על כל הרוחב */
   }
 
   .left-section {
-      order: 2; /* מערכת השעות תרד למטה */
-      width: 100%; /* תתפוס את כל רוחב המסך */
+      width: 100%; /* מערכת שעות תתפוס את כל הרוחב */
+      order: 2; /* מערכת השעות תופיע מתחת */
   }
 
   .right-section {
-      order: 1; /* מעקב המשימות יופיע קודם */
-      width: 100%; /* תתפוס את כל רוחב המסך */
+      width: 100%; /* מעקב המשימות יתפוס את כל הרוחב */
+      order: 1; /* מעקב המשימות יופיע למעלה */
   }
 
   .button {
-      width: 100%; /* הכפתור יתפוס את כל הרוחב */
+      width: 100%; /* כפתור יתפוס את כל הרוחב */
   }
 
   input,
   select {
       width: 100%; /* כל השדות יתפסו את מלוא הרוחב */
-      margin-bottom: 10px; /* מוסיף רווח קטן בין השדות */
+      margin-bottom: 10px; /* רווח בין השדות */
   }
 
   .header {
       text-align: center; /* מרכז את הכותרת */
   }
 }
+
 
 
 
