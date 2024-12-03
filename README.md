@@ -15,13 +15,6 @@ Welcome to **Student Study Tracker**, an intuitive and user-friendly application
 
 ---
 
-## 🖼️ Screenshots
-
-### Main Interface
-![Main Interface](https://via.placeholder.com/800x400)
-
----
-
 ## 🛠️ Built With
 
 - **React.js**: JavaScript library for building the user interface.
