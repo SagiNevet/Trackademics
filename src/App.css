@@ -171,33 +171,40 @@ form button:hover {
   background-color: #d32f2f;
 }
 
-/* שינוי מבנה התצוגה למובייל */
+/* שינוי מבנה לתצוגת מובייל */
 @media (max-width: 768px) {
   .main-container {
       display: flex;
       flex-direction: column; /* משנה את המבנה לטור */
-      align-items: center;
-      padding: 10px;
+      align-items: stretch; /* משאיר את החלקים בגובה מלא */
+      gap: 20px; /* רווח בין החלקים */
   }
 
-  .left-section,
+  .left-section, 
   .right-section {
-      width: 100%; /* כל חלק יתפוס את כל הרוחב */
-      margin-bottom: 20px; /* מוסיף רווח בין החלקים */
+      width: 100%; /* כל חלק יתפוס 100% מהרוחב */
   }
 
-  .header {
-      text-align: center; /* הכותרת תהיה באמצע */
+  .left-section {
+      order: 2; /* מערכת השעות תופיע מתחת */
+  }
+
+  .right-section {
+      order: 1; /* מעקב המשימות יופיע למעלה */
   }
 
   .button {
       width: 100%; /* כפתור יתפוס את כל הרוחב */
   }
 
-  input,
-  select {
-      width: 100%; /* שדות הטקסט יתפסו את כל הרוחב */
-      margin-bottom: 10px; /* מוסיף רווח קטן בין שדות */
+  input, select {
+      width: 100%; /* השדות יתפסו את כל הרוחב */
+      margin-bottom: 10px; /* רווח בין השדות */
+  }
+
+  .header {
+      text-align: center; /* הכותרת תהיה ממורכזת */
   }
 }
+
 
