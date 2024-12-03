@@ -1,13 +1,164 @@
+/* מבנה כללי */
 body {
+  background-color: #1e1e2f;
+  color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  direction: rtl; /* יישור לעברית */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  flex-direction: row; /* קביעת מבנה אופקי */
+  height: 100vh; /* גובה מלא */
+}
+
+/* סייד-בר */
+.sidebar {
+  width: 25%; /* 25% מהמסך */
+  background-color: #2a2a3c;
+  padding: 20px;
+  color: #f5f5f5;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  text-align: right; /* יישור טקסט לימין */
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* חלק מרכזי */
+.main {
+  flex: 1; /* החלק המרכזי תופס את שאר הרוחב */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* יישור אופקי מרכזי */
+  justify-content: flex-start; /* התחלה למעלה */
+  background-color: #1e1e2f;
+}
+
+/* טופס */
+form {
+  display: flex;
+  flex-wrap: wrap; /* עיצוב גמיש לטופס */
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #2a2a3c;
+  color: #f5f5f5;
+  outline: none;
+  width: 250px; /* רוחב אחיד */
+}
+
+form input:focus,
+form select:focus {
+  border-color: #4caf50;
+}
+
+form button {
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* בר התקדמות */
+.progress-bar {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 20px;
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  transition: width 0.5s;
+}
+
+/* רשימת משימות */
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.task {
+  background-color: #2a2a3c;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: right;
+}
+
+.task.completed {
+  background-color: #1e5631;
+  color: #b9fbc0;
+}
+
+.task h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.task a {
+  color: #81c784;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.task a:hover {
+  text-decoration: underline;
+}
+
+.task button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task button:first-of-type {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.task button:first-of-type:hover {
+  background-color: #45a049;
+}
+
+.task button:last-of-type {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.task button:last-of-type:hover {
+  background-color: #d32f2f;
 }
