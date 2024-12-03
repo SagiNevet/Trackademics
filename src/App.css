@@ -176,35 +176,35 @@ form button:hover {
   .main-container {
       display: flex;
       flex-direction: column; /* משנה את המבנה לטור */
-      align-items: stretch; /* משאיר את החלקים בגובה מלא */
       gap: 20px; /* רווח בין החלקים */
-  }
-
-  .left-section, 
-  .right-section {
-      width: 100%; /* כל חלק יתפוס 100% מהרוחב */
+      align-items: stretch; /* מבטיח שכל החלקים יתיישרו ברוחב מלא */
   }
 
   .left-section {
-      order: 2; /* מערכת השעות תופיע מתחת */
+      order: 2; /* מערכת השעות תרד למטה */
+      width: 100%; /* תתפוס את כל רוחב המסך */
   }
 
   .right-section {
-      order: 1; /* מעקב המשימות יופיע למעלה */
+      order: 1; /* מעקב המשימות יופיע קודם */
+      width: 100%; /* תתפוס את כל רוחב המסך */
   }
 
   .button {
-      width: 100%; /* כפתור יתפוס את כל הרוחב */
+      width: 100%; /* הכפתור יתפוס את כל הרוחב */
   }
 
-  input, select {
-      width: 100%; /* השדות יתפסו את כל הרוחב */
-      margin-bottom: 10px; /* רווח בין השדות */
+  input,
+  select {
+      width: 100%; /* כל השדות יתפסו את מלוא הרוחב */
+      margin-bottom: 10px; /* מוסיף רווח קטן בין השדות */
   }
 
   .header {
-      text-align: center; /* הכותרת תהיה ממורכזת */
+      text-align: center; /* מרכז את הכותרת */
   }
 }
+
+
 
 
