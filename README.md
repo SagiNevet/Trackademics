@@ -1,128 +1,70 @@
+# Getting Started with Create React App
 
-# 📚 Student Study Tracker - מערכת שעות ומעקב לימודים
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Welcome to **Student Study Tracker**, an intuitive and user-friendly application designed to help students manage their study schedules and track their progress. Perfect for keeping up with lectures, practice exercises, and personal time management!
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## ✨ Features
+### `npm start`
 
-- **Task Management**: Add, track, and mark study tasks as completed.
-- **Timetable Scheduler**: Create and manage a personalized weekly timetable for lectures and other events.
-- **Progress Tracking**: Visualize your progress with percentage completion indicators.
-- **Responsive Design**: Fully functional on desktops, tablets, and mobile devices.
-- **Local Storage Integration**: Keeps your tasks and timetable saved, even after refreshing the page.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🛠️ Built With
+### `npm test`
 
-- **React.js**: JavaScript library for building the user interface.
-- **CSS**: Custom styles for a clean and modern look.
-- **LocalStorage**: Save and retrieve data locally for persistent task tracking.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 🚀 Getting Started
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Prerequisites
-Before running the app, ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/student-study-tracker.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd student-study-tracker
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Running the App
-1. Start the development server:
-   ```bash
-   npm start
-   ```
-2. Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
+### `npm run eject`
 
-### Build for Production
-To create a production build:
-```bash
-npm run build
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 🌐 Live Demo
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Check out the live version of the app: [Student Study Tracker](https://your-username.github.io/student-study-tracker)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
----
+## Learn More
 
-## 📂 Project Structure
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```
-student-study-tracker/
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-├── src/
-│   ├── components/          # Future modular components
-│   ├── App.js               # Main App logic
-│   ├── App.css              # Styling for the App
-│   ├── index.js             # Entry point for React
-│   ├── index.css            # Global styles
-└── README.md
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
+### Code Splitting
 
-## 📖 Usage Instructions
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Task Management
-1. Enter a task title, optional links, and select the type (lecture or practice).
-2. Click **Add Task** to save it.
-3. Mark tasks as completed or delete them.
+### Analyzing the Bundle Size
 
-### Timetable Scheduler
-1. Add events to your weekly schedule by entering the title, day, start, and end time.
-2. View and manage events for each day of the week.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-## 🎯 Future Improvements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- Dark Mode for improved accessibility.
-- Drag-and-drop functionality for timetable adjustments.
-- Notifications for upcoming events and deadlines.
+### Advanced Configuration
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## 🧑‍💻 Author
+### Deployment
 
-- **Sagi Nevet**  
-  - [GitHub](https://github.com/SagiNevet)
-  - [LinkedIn](https://www.linkedin.com/in/sagi-nevet-1bbb87151/)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
----
+### `npm run build` fails to minify
 
-## 🛡️ License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## ⭐ Acknowledgments
-
-- Thanks to [React.js](https://reactjs.org/) for providing an amazing framework.
-- Inspired by the need for efficient study management tools for students.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
