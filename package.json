@@ -2,7 +2,7 @@
   "name": "student-study-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SagiNevet.github.io/trackademics",
+  "homepage": "https://SagiNevet.github.io/Trackademics",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
