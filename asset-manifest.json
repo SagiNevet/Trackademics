@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/trackademics/static/css/main.6704c97d.css",
-    "main.js": "/trackademics/static/js/main.a186ca2b.js",
-    "static/js/453.75bbcd4b.chunk.js": "/trackademics/static/js/453.75bbcd4b.chunk.js",
-    "index.html": "/trackademics/index.html",
-    "main.6704c97d.css.map": "/trackademics/static/css/main.6704c97d.css.map",
-    "main.a186ca2b.js.map": "/trackademics/static/js/main.a186ca2b.js.map",
-    "453.75bbcd4b.chunk.js.map": "/trackademics/static/js/453.75bbcd4b.chunk.js.map"
+    "main.css": "/Trackademics/static/css/main.6704c97d.css",
+    "main.js": "/Trackademics/static/js/main.a4c9543f.js",
+    "static/js/453.75bbcd4b.chunk.js": "/Trackademics/static/js/453.75bbcd4b.chunk.js",
+    "index.html": "/Trackademics/index.html",
+    "main.6704c97d.css.map": "/Trackademics/static/css/main.6704c97d.css.map",
+    "main.a4c9543f.js.map": "/Trackademics/static/js/main.a4c9543f.js.map",
+    "453.75bbcd4b.chunk.js.map": "/Trackademics/static/js/453.75bbcd4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6704c97d.css",
-    "static/js/main.a186ca2b.js"
+    "static/js/main.a4c9543f.js"
   ]
 }
