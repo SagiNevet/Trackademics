@@ -10,16 +10,25 @@ body {
 }
 
 .App {
+  /* display: flex;
+  height: auto; 
+  flex-wrap: nowrap; */
   display: flex;
-  height: auto; /* גובה אוטומטי */
-  flex-wrap: nowrap;
+  gap: 20px; /* Space between the sections */
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .left-side,
 .schedule {
-  width: 50%;
+  /* width: 50%;
   padding: 20px;
-  overflow: hidden; /* מסירים גלילה פנימית */
+  overflow: hidden;  */
+  flex: 1; /* Make both sections take equal width */
+  min-width: 45%; /* Ensure both sections fit side-by-side on larger screens */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* טופס משימות */
@@ -171,27 +180,15 @@ form button:hover {
   background-color: #d32f2f;
 }
 
-/* שינוי מבנה למסכים קטנים */
+/* Mobile Layout */
 @media (max-width: 768px) {
-  .main-container {
-    display: flex;
-    flex-direction: column; /* מסדר את האלמנטים בטור */
-    gap: 20px; /* מוסיף רווח בין האלמנטים */
-    align-items: stretch; /* כל האלמנטים יתפסו את מלוא הרוחב */
+  .App {
+    flex-direction: column; /* Stack sections vertically */
+    gap: 15px; /* Add some space between sections */
   }
 
-  .tracker-container {
-    order: 1; /* מעקב לימודים מופיע ראשון */
-    width: 100%; /* תופס את כל הרוחב */
-  }
-
-  .schedule-container {
-    order: 2; /* מערכת שעות מופיעה אחרונה */
-    width: 100%; /* תופס את כל הרוחב */
-  }
-
-  .schedule-grid {
-    grid-template-columns: 1fr; /* יום אחד בכל שורה */
+  .left-side, .schedule {
+    min-width: 100%; /* Make each section take full width */
   }
 }
 
