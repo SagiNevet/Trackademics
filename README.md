@@ -24,21 +24,17 @@
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/SagiNevet/trackcademics.git
-   \`\`\`
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd trackcademics
-   \`\`\`
 3. Install dependencies:
-   \`\`\`bash
+   ````bash
    npm install
-   \`\`\`
 4. Run the application:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
 
 ## Deployment
 
