@@ -38,7 +38,7 @@
 
 ## Deployment
 
-This project is deployed on GitHub Pages. You can access it [here](https://SagiNevet.github.io/trackcademics).
+This project is deployed on GitHub Pages. You can access it [here](https://SagiNevet.github.io/Trackademics).
 
 ## Contributing
 
